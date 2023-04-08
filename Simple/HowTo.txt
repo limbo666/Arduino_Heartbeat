@@ -1,0 +1,15 @@
+How to 
+
+#include <Heartbeat.h>
+
+Heartbeat heartbeat(500, 13); // Create a Heartbeat instance with a 500ms interval on pin 13
+
+void setup() {
+  // Call the update function once in the setup function
+  heartbeat.update();
+}
+
+void loop() {
+  // Call the update function in the loop function
+  heartbeat.update();
+}
