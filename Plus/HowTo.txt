@@ -1,0 +1,13 @@
+#include <HeartbeatPlus.h>
+
+HeartbeatPlus heartbeatPlus (50,1000, 13); // Create a Heartbeat instance with a 50ms On Time and 1000ms Off Time on pin 13
+
+void setup() {
+// Call the update function once in the setup function
+  heartbeatPlus.update();
+}
+
+void loop() {
+ // Call the update function in the loop function
+  heartbeatPlus.update();
+}
