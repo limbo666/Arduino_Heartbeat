@@ -1,5 +1,5 @@
 
-Heartbeat Library
+Arduino Heartbeat Libraries
 =================
 
 The Heartbeat library provides a simple way to generate a heartbeat signal using the Arduino's digital pins. It uses the millis() function to avoid blocking other code.
