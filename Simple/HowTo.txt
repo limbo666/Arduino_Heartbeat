@@ -1,5 +1,3 @@
-How to 
-
 #include <Heartbeat.h>
 
 Heartbeat heartbeat(500, 13); // Create a Heartbeat instance with a 500ms interval on pin 13
