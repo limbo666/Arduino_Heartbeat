@@ -7,7 +7,8 @@ This repository contains two Arduino libraries for generating a heartbeat signal
 Installation
 ------------
 
-To use either library, download the zip file and extract it into your Arduino libraries directory. Each library directory should be named according to the library: "Heartbeat" or "HeartbeatPlus".
+To use either library, download the zip file (from release page https://github.com/limbo666/Arduino_Heartbeat/releases/tag/First_Release) and extract it into your Arduino libraries directory. Each library directory should be named according to the library: "Heartbeat" or "HeartbeatPlus".
+
 
 Heartbeat Library
 -----------------
